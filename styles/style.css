@@ -1,0 +1,56 @@
+.conatiner {
+  margin: 100px 450px;
+  border: 10px solid rgb(197, 197, 197);
+  border-style: outset;
+}
+.title {
+  font-style: italic;
+  display: inline-block;
+}
+.logo2,
+.logo1 {
+  margin-top: 10px;
+  display: inline-block;
+}
+.in-border {
+  border: 10px solid rgb(197, 197, 197);
+  border-style: inset;
+  padding: 10px 30px;
+}
+.header {
+  text-align: center;
+  border: 2px solid rgb(197, 197, 197);
+  padding: 10px;
+  background-color: rgb(224 150 145);
+  margin-bottom: 5px;
+}
+.links {
+  border: 2px solid rgb(197, 197, 197);
+  padding: 10px;
+  background-color: rgb(224 150 145);
+  text-align: center;
+  margin-bottom: 5px;
+}
+.links a {
+  color: red;
+}
+.intro {
+  border: 2px solid rgb(197, 197, 197);
+  padding: 10px 50px;
+  background-color: rgb(224 150 145);
+  color: rgb(50, 11, 11);
+}
+.intro h2 {
+  text-decoration: underline;
+}
+p > span {
+  font-weight: bold;
+}
+h2 ~ span {
+  color: red;
+  text-decoration: underline;
+}
+.footer {
+  background-color: rgb(224 150 145);
+  text-align: center;
+}
